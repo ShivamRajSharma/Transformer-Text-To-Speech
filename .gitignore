@@ -1,7 +1,6 @@
 *.csv
 *.wav
 *.bin
-*.pickle
 __pycache__
 
 LICENSE
