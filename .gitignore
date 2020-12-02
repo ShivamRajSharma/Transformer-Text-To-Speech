@@ -2,6 +2,7 @@
 *.wav
 *.bin
 *.pickle
+__pycache__
 
 LICENSE
 README.md
