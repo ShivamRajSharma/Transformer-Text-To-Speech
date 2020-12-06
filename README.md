@@ -19,7 +19,3 @@ A text-to-speech (TTS) system converts normal language text into speech; other s
 ## Dataset Information
 The model was trained on a subset of WMT-2014 English-German Dataset. Preprocessing was carried out before training the model.</br>
 Dataset : https://keithito.com/LJ-Speech-Dataset/
-
-
-## Model Architecture 
-
