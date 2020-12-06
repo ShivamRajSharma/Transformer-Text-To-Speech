@@ -4,6 +4,7 @@ A text-to-speech (TTS) system converts normal language text into speech; other s
 
 ## Model Architecture
 
+### 1) Transformer TTS
 <!-- <p align="center"> -->
   <img src="https://github.com/ShivamRajSharma/Transformer-Text-To-Speech/blob/main/Transformer_tts_model/model.png" height="600"/>
 </p>
@@ -12,6 +13,8 @@ A text-to-speech (TTS) system converts normal language text into speech; other s
 * Text are sent as input and the model outputs a Mel-Spectrogram.
 * Multi-headed attention is employed, with causal masking only on the decoder side.
 * Paper : [Neural Speech Synthesis with Transformer Network](https://arxiv.org/abs/1809.08895)
+
+### 2) Wavenet
 
 
 ## Dataset Information
