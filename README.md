@@ -15,7 +15,7 @@ A text-to-speech (TTS) system converts normal language text into speech; other s
 ### 2) Wavenet
   <img src="https://i.stack.imgur.com/t7qkv.png">*
   
-  * Output of the Transformer tts i.e is a Mel-Spectrogram is feed into the Wavenet to generate audio samples.
+  * Output of the Transformer tts (Mel-Spectrogram) is fed into the Wavenet to generate audio samples.
   * Unlike Seq2Seq models wavenet also allows parallel training.
   * Paper : [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/abs/1609.03499)
   
