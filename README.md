@@ -8,6 +8,7 @@ A text-to-speech (TTS) system converts normal language text into speech; other s
 
 Paper : [Neural Speech Synthesis with Transformer Network](https://arxiv.org/abs/1809.08895)
 
+* Transfoer
 
 
 
@@ -17,7 +18,4 @@ Dataset : https://keithito.com/LJ-Speech-Dataset/
 
 
 ## Model Architecture 
-
-<p align="center">
-  <img src="https://github.com/ShivamRajSharma/Transformer-Text-To-Speech/blob/main/Transformer_tts_model/model.png" height="400"/>
 
