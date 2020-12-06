@@ -14,5 +14,5 @@ Dataset : https://keithito.com/LJ-Speech-Dataset/
 ## Model Architecture 
 
 <p align="center">
-  <img src="" height="300"/>
+  <img src="https://github.com/ShivamRajSharma/Transformer-Text-To-Speech/blob/main/Transformer_tts_model/model.png"/>
 </p>
