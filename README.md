@@ -4,7 +4,7 @@ A text-to-speech (TTS) system converts normal language text into speech; other s
 
 ## Model Architecture
 
-<p align="center">
+<!-- <p align="center"> -->
   <img src="https://github.com/ShivamRajSharma/Transformer-Text-To-Speech/blob/main/Transformer_tts_model/model.png" height="600"/>
 </p>
 
