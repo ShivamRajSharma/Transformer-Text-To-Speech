@@ -8,9 +8,11 @@ A text-to-speech (TTS) system converts normal language text into speech; other s
   <img src="https://github.com/ShivamRajSharma/Transformer-Text-To-Speech/blob/main/Transformer_tts_model/model.png" height="600"/>
 </p>
 
-Paper : [Neural Speech Synthesis with Transformer Network](https://arxiv.org/abs/1809.08895)
+* An Encoder-Decoder transformer architecture for parallel training instead for Seq2Seq training incase of [Tacotron-2](https://github.com/NVIDIA/tacotron2)
+* Text are sent as input and the model outputs a Mel-Spectrogram.
+* Multi-headed attention is employed, with causal masking only on the decoder side.
+* Paper : [Neural Speech Synthesis with Transformer Network](https://arxiv.org/abs/1809.08895)
 
-* Transfoer
 
 
 
