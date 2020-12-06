@@ -6,15 +6,22 @@ A text-to-speech (TTS) system converts normal language text into speech; other s
 
 ### 1) Transformer TTS
 <!-- <p align="center"> -->
-  <img src="https://github.com/ShivamRajSharma/Transformer-Text-To-Speech/blob/main/Transformer_tts_model/model.png" height="600"/>
-</p>
+    <img src="https://github.com/ShivamRajSharma/Transformer-Text-To-Speech/blob/main/Transformer_tts_model/model.png" height="600"/>
+  </p>
 
-* An Encoder-Decoder transformer architecture for parallel training instead for Seq2Seq training incase of [Tacotron-2](https://github.com/NVIDIA/tacotron2)
-* Text are sent as input and the model outputs a Mel-Spectrogram.
-* Multi-headed attention is employed, with causal masking only on the decoder side.
-* Paper : [Neural Speech Synthesis with Transformer Network](https://arxiv.org/abs/1809.08895)
+  * An Encoder-Decoder transformer architecture for parallel training instead for Seq2Seq training incase of [Tacotron-2](https://github.com/NVIDIA/tacotron2)
+  * Text are sent as input and the model outputs a Mel-Spectrogram.
+  * Multi-headed attention is employed, with causal masking only on the decoder side.
+  * Paper : [Neural Speech Synthesis with Transformer Network](https://arxiv.org/abs/1809.08895)
 
 ### 2) Wavenet
+  <img src="https://i.stack.imgur.com/t7qkv.png">*
+  
+  * Output of the Transformer tts i.e is a Mel-Spectrogram is feed into the wavenet to generate audio samples.
+  * Unlike Seq2Seq models wavenet also allows parallel training.
+  * Paper : [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/abs/1609.03499)
+  
+
 
 
 ## Dataset Information
