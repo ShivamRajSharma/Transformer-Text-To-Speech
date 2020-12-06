@@ -5,7 +5,7 @@ A text-to-speech (TTS) system converts normal language text into speech; other s
 ## Model Architecture
 
 ### 1) Transformer TTS
-  <img src="https://github.com/ShivamRajSharma/Transformer-Text-To-Speech/blob/main/Transformer_tts_model/model.png" height="500" width="400"/>
+  <img src="https://github.com/ShivamRajSharma/Transformer-Text-To-Speech/blob/main/Transformer_tts_model/model.png" height="400" width="400"/>
 
   * An Encoder-Decoder transformer architecture for parallel training instead for Seq2Seq training incase of [Tacotron-2](https://github.com/NVIDIA/tacotron2)
   * Text are sent as input and the model outputs a Mel-Spectrogram.
